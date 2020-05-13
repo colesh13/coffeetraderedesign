@@ -1,0 +1,308 @@
+html, body{margin:0; padding:0;
+}
+body{
+    background-color: rgb(63,46, 39);
+}    
+header {
+    height: 30%;
+    padding-bottom: 0;
+}
+.maincontent{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.logo {
+    margin-left: 1em;
+    display: block;
+    width:80%;
+    margin-top: 1em;
+    max-width: 45em;
+}
+.logo img{
+    width: 100%;
+}
+a{
+    text-decoration: none; 
+}
+nav {
+    background: rgb(86, 64, 55);
+    min-height: 2em;
+    width:100%;
+    align-content: center;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:200em;
+    overflow: auto;
+}
+.nav li {
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline;
+    margin: 0 auto;
+    padding: .19em;
+}
+nav li {
+    display: inline-block;
+    padding-left: 0em;
+    padding-right: 1em;
+    text-decoration: none;
+    display: inline;
+    font-size: 1.3em;
+}
+nav li a {
+    text-decoration: none;
+    color: rgb(232, 200, 162);    
+}
+nav ul {
+    font-family: ambroise-std, serif;
+    clear: both;
+    min-height: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left:1em;
+    text-align: center;
+}
+.nav {
+    align-content: center;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a{
+    color: rgb(0, 0, 0);    
+    font-family: 'Lora', serif;
+}
+a.selected{
+    color: rgb(255,255,255);
+}
+.award{
+    max-width: 30em;
+}
+
+@media only screen and (min-width: 10em){
+    .menu{
+        background-color: rgb(55,40,34);
+        margin-left: 1em;
+        padding-bottom: 1em;
+        padding-left: 2em;
+        padding-right: 5em;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 40em){
+    .logo{
+        max-width: 30em;
+    }
+    .menu{
+        max-width: 40em;
+    }
+    .content{
+        max-width: 60em;
+    }
+}
+@media only screen and (min-width: 50em){
+    nav{
+        max-height: 5em;
+        padding: 0em;
+    }
+    .menu{
+        max-width: 60em;
+    }
+}
+@media only screen and (min-width: 60em){
+    h1{
+        font-size: 5em;
+        padding-left: 6em;
+    }
+    .textoverimage{
+        clear: both;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 100em;
+        max-width: 100em;
+    }
+    .maincontent{
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 80em){
+    .menu{
+        max-width: 100em;
+    }
+}
+@media only screen and (min-width: 100em){
+    nav{
+        max-height: 5em;
+        padding: 0em;
+        max-width: 200em;
+    }
+    nav li{
+        padding-left: 1.1em;
+        padding-right: 1.1em;
+    }
+    .homeimage{
+        width: 200%;
+        height: 50%;
+    }
+}
+
+
+.textoverimage{
+    clear: both;
+    margin-top: 2em;
+    align-content: center;
+    background-image: url(images/coffeehome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100em;
+    max-height: 80em;  
+    padding: 5em 3em 5em 3em;
+    text-align: center;
+}
+.awardimage{
+    clear: both;
+    margin-top: 1em;
+    align-content: center;
+    background-image: url(images/award.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 200em;
+    max-height: 80em;  
+    padding: 10em 5em 10em 5em;
+    text-align: center;
+}
+
+.teaimage{
+    clear: both;
+    margin-top: 1em;
+    align-content: center;
+    background-image: url(images/tea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 200em;
+    max-height: 80em;  
+    padding: 10em 5em 10em 5em;
+    text-align: center;
+}
+
+.signimage{
+    clear: both;
+    margin-top: 1em;
+    align-content: center;
+    background-image: url(images/sign.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 150em;
+    max-height: 60em;  
+    padding: 15em 10em 8em 10em;
+    text-align: center;
+}
+
+.worldcoffeeimage{
+    clear: both;
+    margin-top: 1em;
+    align-content: center;
+    background-image: url(images/worldcoffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 150em;
+    max-height: 60em;  
+    padding: 15em 10em 8em 10em;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+h2, h3, h4, h5{
+    font-size: 1.3em;
+}
+h1{
+    color: rgb(57, 38, 29);
+    align-content: center;
+    display: block;
+    padding-left: .4em;
+    font-size: 3em;
+    font-weight: 1000;
+}
+h2{
+    color: rgb(236, 227, 223);
+    font-size: 1.7em;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+h3{
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+p{
+    color: rgb(232,218,195);
+    font-family: 'Montserrat', sans-serif;   
+}
+.menu{
+    background-color: rgb(45, 32, 27);
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+.menu p{
+    color:rgb(183, 147, 130);
+    margin-top: 0.7em;
+}
+.menu h3{
+    color:rgb(232, 200, 162);
+}
+.menu h2{
+    color:rgb(255, 225, 193);
+    padding-top: 1.6em;
+    margin-top: 0em;
+}
+.menu ul{
+    list-style-type: none;
+}
+.mapouter{
+    margin: auto;
+    margin left: 1em;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+address{
+    margin-top: .7em;
+    margin-bottom: 1.4em;
+    padding: 0em;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+.maincontactinfo p {
+    color: rgb(255, 255, 255));
+}
+h6{
+    color: rgb(216, 199, 192);
+    font-size: .7em;
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/*outer div*/
+.content{    
+    width:100%;
+    margin: auto;
+    overflow: hidden;
+}
+iframe{
+    top: 0;
+    left: 0;
+    width: 100% !important;
+}
